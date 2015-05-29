@@ -24,10 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btnLogin:(id)sender {
+- (IBAction)btnLogin:(id)sender
+{
 }
 
 
-- (IBAction)btnSignup:(id)sender {
+- (IBAction)btnSignup:(id)sender
+{
 }
 @end
