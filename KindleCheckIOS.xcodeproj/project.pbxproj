@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03A2044AA5199F55B824304 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B479A51051493A0D6DDAC1B /* libPods.a */; };
+		DFB99EF71B1487A600A8D51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99EF61B1487A600A8D51D /* main.m */; };
+		DFB99EFA1B1487A600A8D51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99EF91B1487A600A8D51D /* AppDelegate.m */; };
+		DFB99EFD1B1487A600A8D51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99EFC1B1487A600A8D51D /* ViewController.m */; };
+		DFB99F001B1487A600A8D51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB99EFE1B1487A600A8D51D /* Main.storyboard */; };
+		DFB99F021B1487A600A8D51D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB99F011B1487A600A8D51D /* Images.xcassets */; };
+		DFB99F051B1487A600A8D51D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB99F031B1487A600A8D51D /* LaunchScreen.xib */; };
+		DFB99F111B1487A600A8D51D /* KindleCheckIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99F101B1487A600A8D51D /* KindleCheckIOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB99F0B1B1487A600A8D51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB99EE91B1487A600A8D51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB99EF01B1487A600A8D51D;
+			remoteInfo = KindleCheckIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B479A51051493A0D6DDAC1B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3375FFF5951F739A73EFFE70 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB99EF11B1487A600A8D51D /* KindleCheckIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleCheckIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB99EF51B1487A600A8D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB99EF61B1487A600A8D51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB99EF81B1487A600A8D51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB99EF91B1487A600A8D51D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB99EFB1B1487A600A8D51D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFB99EFC1B1487A600A8D51D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFB99EFF1B1487A600A8D51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB99F011B1487A600A8D51D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFB99F041B1487A600A8D51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFB99F0A1B1487A600A8D51D /* KindleCheckIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleCheckIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB99F0F1B1487A600A8D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB99F101B1487A600A8D51D /* KindleCheckIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindleCheckIOSTests.m; sourceTree = "<group>"; };
+		FBDE4BA3589FE5097518DFFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB99EEE1B1487A600A8D51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03A2044AA5199F55B824304 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB99F071B1487A600A8D51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F77C01AFDAEA27FAD9ACD43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3375FFF5951F739A73EFFE70 /* Pods.debug.xcconfig */,
+				FBDE4BA3589FE5097518DFFE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D9EC15252537D1A0D1467A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B479A51051493A0D6DDAC1B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB99EE81B1487A600A8D51D = {
+			isa = PBXGroup;
+			children = (
+				DFB99EF31B1487A600A8D51D /* KindleCheckIOS */,
+				DFB99F0D1B1487A600A8D51D /* KindleCheckIOSTests */,
+				DFB99EF21B1487A600A8D51D /* Products */,
+				4F77C01AFDAEA27FAD9ACD43 /* Pods */,
+				9D9EC15252537D1A0D1467A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB99EF21B1487A600A8D51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB99EF11B1487A600A8D51D /* KindleCheckIOS.app */,
+				DFB99F0A1B1487A600A8D51D /* KindleCheckIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB99EF31B1487A600A8D51D /* KindleCheckIOS */ = {
+			isa = PBXGroup;
+			children = (
+				DFB99EF81B1487A600A8D51D /* AppDelegate.h */,
+				DFB99EF91B1487A600A8D51D /* AppDelegate.m */,
+				DFB99EFB1B1487A600A8D51D /* ViewController.h */,
+				DFB99EFC1B1487A600A8D51D /* ViewController.m */,
+				DFB99EFE1B1487A600A8D51D /* Main.storyboard */,
+				DFB99F011B1487A600A8D51D /* Images.xcassets */,
+				DFB99F031B1487A600A8D51D /* LaunchScreen.xib */,
+				DFB99EF41B1487A600A8D51D /* Supporting Files */,
+			);
+			path = KindleCheckIOS;
+			sourceTree = "<group>";
+		};
+		DFB99EF41B1487A600A8D51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB99EF51B1487A600A8D51D /* Info.plist */,
+				DFB99EF61B1487A600A8D51D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB99F0D1B1487A600A8D51D /* KindleCheckIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB99F101B1487A600A8D51D /* KindleCheckIOSTests.m */,
+				DFB99F0E1B1487A600A8D51D /* Supporting Files */,
+			);
+			path = KindleCheckIOSTests;
+			sourceTree = "<group>";
+		};
+		DFB99F0E1B1487A600A8D51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB99F0F1B1487A600A8D51D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB99EF01B1487A600A8D51D /* KindleCheckIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB99F141B1487A600A8D51D /* Build configuration list for PBXNativeTarget "KindleCheckIOS" */;
+			buildPhases = (
+				0CA060B12C5ABA660113F6CD /* Check Pods Manifest.lock */,
+				DFB99EED1B1487A600A8D51D /* Sources */,
+				DFB99EEE1B1487A600A8D51D /* Frameworks */,
+				DFB99EEF1B1487A600A8D51D /* Resources */,
+				D06A002B34F62019C76A714F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindleCheckIOS;
+			productName = KindleCheckIOS;
+			productReference = DFB99EF11B1487A600A8D51D /* KindleCheckIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB99F091B1487A600A8D51D /* KindleCheckIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB99F171B1487A600A8D51D /* Build configuration list for PBXNativeTarget "KindleCheckIOSTests" */;
+			buildPhases = (
+				DFB99F061B1487A600A8D51D /* Sources */,
+				DFB99F071B1487A600A8D51D /* Frameworks */,
+				DFB99F081B1487A600A8D51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB99F0C1B1487A600A8D51D /* PBXTargetDependency */,
+			);
+			name = KindleCheckIOSTests;
+			productName = KindleCheckIOSTests;
+			productReference = DFB99F0A1B1487A600A8D51D /* KindleCheckIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB99EE91B1487A600A8D51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Yun.Zou;
+				TargetAttributes = {
+					DFB99EF01B1487A600A8D51D = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = PE787TB94K;
+					};
+					DFB99F091B1487A600A8D51D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DFB99EF01B1487A600A8D51D;
+					};
+				};
+			};
+			buildConfigurationList = DFB99EEC1B1487A600A8D51D /* Build configuration list for PBXProject "KindleCheckIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB99EE81B1487A600A8D51D;
+			productRefGroup = DFB99EF21B1487A600A8D51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB99EF01B1487A600A8D51D /* KindleCheckIOS */,
+				DFB99F091B1487A600A8D51D /* KindleCheckIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB99EEF1B1487A600A8D51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB99F001B1487A600A8D51D /* Main.storyboard in Resources */,
+				DFB99F051B1487A600A8D51D /* LaunchScreen.xib in Resources */,
+				DFB99F021B1487A600A8D51D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB99F081B1487A600A8D51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA060B12C5ABA660113F6CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D06A002B34F62019C76A714F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB99EED1B1487A600A8D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB99EFD1B1487A600A8D51D /* ViewController.m in Sources */,
+				DFB99EFA1B1487A600A8D51D /* AppDelegate.m in Sources */,
+				DFB99EF71B1487A600A8D51D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB99F061B1487A600A8D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB99F111B1487A600A8D51D /* KindleCheckIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB99F0C1B1487A600A8D51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB99EF01B1487A600A8D51D /* KindleCheckIOS */;
+			targetProxy = DFB99F0B1B1487A600A8D51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB99EFE1B1487A600A8D51D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB99EFF1B1487A600A8D51D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB99F031B1487A600A8D51D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB99F041B1487A600A8D51D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB99F121B1487A600A8D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFB99F131B1487A600A8D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB99F151B1487A600A8D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3375FFF5951F739A73EFFE70 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = KindleCheckIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DFB99F161B1487A600A8D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDE4BA3589FE5097518DFFE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = KindleCheckIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DFB99F181B1487A600A8D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KindleCheckIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindleCheckIOS.app/KindleCheckIOS";
+			};
+			name = Debug;
+		};
+		DFB99F191B1487A600A8D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KindleCheckIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindleCheckIOS.app/KindleCheckIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB99EEC1B1487A600A8D51D /* Build configuration list for PBXProject "KindleCheckIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB99F121B1487A600A8D51D /* Debug */,
+				DFB99F131B1487A600A8D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB99F141B1487A600A8D51D /* Build configuration list for PBXNativeTarget "KindleCheckIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB99F151B1487A600A8D51D /* Debug */,
+				DFB99F161B1487A600A8D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB99F171B1487A600A8D51D /* Build configuration list for PBXNativeTarget "KindleCheckIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB99F181B1487A600A8D51D /* Debug */,
+				DFB99F191B1487A600A8D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB99EE91B1487A600A8D51D /* Project object */;
+}
