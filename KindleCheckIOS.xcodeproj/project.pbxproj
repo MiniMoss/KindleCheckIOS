@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A03A2044AA5199F55B824304 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B479A51051493A0D6DDAC1B /* libPods.a */; };
+		DF8C2DA11B19859F003D6C32 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8C2DA01B19859F003D6C32 /* WelcomeViewController.m */; };
 		DFB99EF71B1487A600A8D51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99EF61B1487A600A8D51D /* main.m */; };
 		DFB99EFA1B1487A600A8D51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99EF91B1487A600A8D51D /* AppDelegate.m */; };
 		DFB99EFD1B1487A600A8D51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99EFC1B1487A600A8D51D /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		DFB99F021B1487A600A8D51D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB99F011B1487A600A8D51D /* Images.xcassets */; };
 		DFB99F051B1487A600A8D51D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB99F031B1487A600A8D51D /* LaunchScreen.xib */; };
 		DFB99F111B1487A600A8D51D /* KindleCheckIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB99F101B1487A600A8D51D /* KindleCheckIOSTests.m */; };
+		DFF093141B189C7700B79F2C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF093131B189C7700B79F2C /* SignUpViewController.m */; };
+		DFF093201B189DB100B79F2C /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF0931F1B189DB100B79F2C /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,8 @@
 /* Begin PBXFileReference section */
 		0B479A51051493A0D6DDAC1B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3375FFF5951F739A73EFFE70 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DF8C2D9F1B19859F003D6C32 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		DF8C2DA01B19859F003D6C32 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		DFB99EF11B1487A600A8D51D /* KindleCheckIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleCheckIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB99EF51B1487A600A8D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFB99EF61B1487A600A8D51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +48,10 @@
 		DFB99F0A1B1487A600A8D51D /* KindleCheckIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleCheckIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB99F0F1B1487A600A8D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFB99F101B1487A600A8D51D /* KindleCheckIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindleCheckIOSTests.m; sourceTree = "<group>"; };
+		DFF093121B189C7700B79F2C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		DFF093131B189C7700B79F2C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		DFF0931E1B189DB100B79F2C /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		DFF0931F1B189DB100B79F2C /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		FBDE4BA3589FE5097518DFFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +91,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF8C2D9E1B198566003D6C32 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				DF8C2D9F1B19859F003D6C32 /* WelcomeViewController.h */,
+				DF8C2DA01B19859F003D6C32 /* WelcomeViewController.m */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
 		DFB99EE81B1487A600A8D51D = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +130,9 @@
 				DFB99EFE1B1487A600A8D51D /* Main.storyboard */,
 				DFB99F011B1487A600A8D51D /* Images.xcassets */,
 				DFB99F031B1487A600A8D51D /* LaunchScreen.xib */,
+				DFF093011B1899CE00B79F2C /* LogIn */,
+				DFF093021B1899EF00B79F2C /* SignUp */,
+				DF8C2D9E1B198566003D6C32 /* Welcome */,
 				DFB99EF41B1487A600A8D51D /* Supporting Files */,
 			);
 			path = KindleCheckIOS;
@@ -141,6 +162,24 @@
 				DFB99F0F1B1487A600A8D51D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFF093011B1899CE00B79F2C /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				DFF0931E1B189DB100B79F2C /* LogInViewController.h */,
+				DFF0931F1B189DB100B79F2C /* LogInViewController.m */,
+			);
+			name = LogIn;
+			sourceTree = "<group>";
+		};
+		DFF093021B1899EF00B79F2C /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DFF093121B189C7700B79F2C /* SignUpViewController.h */,
+				DFF093131B189C7700B79F2C /* SignUpViewController.m */,
+			);
+			name = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF093201B189DB100B79F2C /* LogInViewController.m in Sources */,
 				DFB99EFD1B1487A600A8D51D /* ViewController.m in Sources */,
+				DFF093141B189C7700B79F2C /* SignUpViewController.m in Sources */,
 				DFB99EFA1B1487A600A8D51D /* AppDelegate.m in Sources */,
 				DFB99EF71B1487A600A8D51D /* main.m in Sources */,
+				DF8C2DA11B19859F003D6C32 /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
