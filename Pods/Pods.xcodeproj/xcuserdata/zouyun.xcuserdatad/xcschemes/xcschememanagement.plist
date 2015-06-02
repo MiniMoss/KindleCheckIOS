@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-AMSlideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-KindleCheckIOS-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KindleCheckIOS-AMSlideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -20,6 +30,11 @@
 			<false/>
 		</dict>
 		<key>Pods-KindleCheckIOSTests-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KindleCheckIOSTests-AMSlideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>36E04BB62DD5E24A063E4A77</key>
+		<key>36BC4778F914D446F489C03E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F8E1D0DC6BC32EB832951EE</key>
+		<key>7D11994BEFF65C503D932B74</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5AECDA2189AE8E346D86F414</key>
+		<key>7D2531ABAB97C94B1AC1F624</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74238E9421100896FEDA9888</key>
+		<key>8FF0AEAF8EAA17A4BC7D24D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7DF3E953C84B30F116628FC8</key>
+		<key>90B6D2ABF21D1506E6E17BB4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>95597D624D0A94E4CAFD6282</key>
+		<key>9DB06DDA82ADB3A780631B4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E60D7AB77DF4A5CCF219D752</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF97F90F18A8CDB492403849</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE448C09EC9625D1EF0D53E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
